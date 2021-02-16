@@ -1,9 +1,9 @@
 class SlackDocker < Formula
   desc "Slack integration to notify Docker events"
   homepage "https://github.com/int128/slack-docker"
-  url "https://github.com/int128/slack-docker/releases/download/v2.0.2/slack-docker_darwin_amd64.zip"
-  version "v2.0.2"
-  sha256 "842f556f90c731d94ddd9e2b3111fc578505352cb584ff195a8ea755ca5333c7"
+  url "https://github.com/int128/slack-docker/releases/download/beta/slack-docker_darwin_amd64.zip"
+  version "beta"
+  sha256 "89af8c40867213df994ec58e30cc58a0f0583612df806478b28372b64ac31d39"
 
   def install
     bin.install "slack-docker"
