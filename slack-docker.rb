@@ -3,7 +3,7 @@ class SlackDocker < Formula
   homepage "https://github.com/int128/slack-docker"
   url "https://github.com/int128/slack-docker/releases/download/beta/slack-docker_darwin_amd64.zip"
   version "beta"
-  sha256 "41aac52343bc843e614f26b96caf0467e0cb0097b4ce642fb8fdedd9d6c8f9b8"
+  sha256 "7ee0fcf14587a6bff84218ac108ce7a13b5a06a4c4f5e361b3b6306eead3f1ea"
 
   def install
     bin.install "slack-docker"
